@@ -15,3 +15,8 @@ SQL Server: Limpieza, transformación y modelado de los datos.
 - Datos estandarizados y listos para análisis.
 - Eliminación de inconsistencias y mejora en la calidad del dataset.
 - Base de datos más eficiente y organizada.
+
+
+Para consultas o colaboraciones, puedes contactarme a través de:
+[Mail](mailto:maria.ibanezw@gmail.com)
+[LinkedIn] (https://www.linkedin.com/in/mariadelmaribanezw/)
