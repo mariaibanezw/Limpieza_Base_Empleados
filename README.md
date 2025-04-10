@@ -18,5 +18,7 @@ SQL Server: Limpieza, transformación y modelado de los datos.
 
 
 Para consultas o colaboraciones, puedes contactarme a través de:
+
 [Mail](mailto:maria.ibanezw@gmail.com)
-[LinkedIn] (https://www.linkedin.com/in/mariadelmaribanezw/)
+
+[LinkedIn](https://www.linkedin.com/in/mariadelmaribanezw/) 
