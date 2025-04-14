@@ -140,12 +140,15 @@ Se generaron dos nuevas columnas utilizando funciones de fecha en SQL:
 - Otra columna `Antigüedad`, calculada como el tiempo transcurrido desde la fecha de ingreso (Star_Date) hasta la fecha actual.
 
 Creación de nueva columna `Edad` y calculo de los datos:
-![Imagen 14]()
+
+![Imagen 14](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/8fa705f5f2797b6ebd27e2e13e85f06c306401f8/Imagenes/imagen-14.png)
 
 Creación de nueva columna `Antigüedad` y calculo de los datos:
+
 ![Imagen 15](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/441ee4b9d081afe30e0eff0cbeb177ed6bf1c064/Imagenes/imagen-15.png)
 
 Resultados obtenidos:
+
 ![Imagen 16](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/25e588feeb6923f9fb949fb3865dce0ab7634f74/Imagenes/imagen-16.png)
 
 ---
