@@ -8,10 +8,10 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
 --- 
 
 ## Contenido
-1. [Objetivo general](#objetivo-general)
-2. [Herramientas utilizadas](#herramientas-utilizadas)
-3. [Conjunto de datos](#conjunto-de-datos)
-4. [Pasos realizados](#pasos-realizados)
+1. [Objetivo general](#1.-Objetivo-general)
+2. [Herramientas utilizadas](#2.-Herramientas-utilizadas)
+3. [Conjunto de datos](#3.-Conjunto-de-datos)
+4. [Pasos realizados](#4.-pasos-realizados)
 
    - [Paso 1: Estandarización de los nombres de los campos]()
    - [Paso 2: Eliminación de datos duplicados]()
