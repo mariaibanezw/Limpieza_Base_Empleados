@@ -131,6 +131,7 @@ Las columnas `Birth_Date` y `Finish_Date` estaban en formato `VARCHAR`, con los 
 ![Imagen 12](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/5cbf2b893931c5ea8d168376bd997047ef25cc58/Imagenes/imagen-12.png)
 
 Cambio de tipo de dato: 
+
 ![Imagen 13](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/b8f77954a6bf1abb94a6833239d1e4f847945685/Imagenes/imagen-13.png)
 
 ## 🡲 PASO 4: Nuevas columnas de edad y antigüedad
@@ -166,5 +167,6 @@ Este tipo de procesos es fundamental en cualquier etapa de análisis de datos, y
 Para consultas, puedes contactarme a través de:
 
 [Mail](mailto:maria.ibanezw@gmail.com)
+
 [LinkedIn](https://www.linkedin.com/in/mariadelmaribanezw/) 
 
