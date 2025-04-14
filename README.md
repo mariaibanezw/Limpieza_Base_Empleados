@@ -40,16 +40,36 @@ Entre los principales objetivos se encuentran:
 --- 
 
 ## Conjunto de datos
-Los datos crudos estan en formato CSV y se han descargado directamente de la base de datos. Estos contienen información de los empleados de la empresa como: nombre, apellido, fecha de nacimiento, el area en la que trabajan dentro de empresa, la fecha de ingreso y si es el caso, la fecha de finalizacion de su contrato.
+Los datos crudos estan en formato CSV. Estos contienen información de los empleados de la empresa como: nombre, apellido, fecha de nacimiento, el area en la que trabajan dentro de empresa, la fecha de ingreso y si es el caso, la fecha de finalizacion de su contrato.
 
 --- 
+
 ## Pasos realizados
-### Base de datos original
-A continuación se muestra una vista previa del conjunto de datos original
-![Dataset Preview](images/image-1.png)
 
+### Creación de base de datos 
+Se creo una nueva base llamada "CleanDatabase" en donde se alojó la tabla principal con los datos de los empleados.
 
-### Paso 1: Creación de base de datos
+### Importación de los datos de un archivo CSV
+A continuación se muestra una vista previa del conjunto de datos originales, con una cantidad de 22.223 registros.
+
+![Imagen 1](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/12b0595c266c97041cb89f114b03bf2b5769ca31/Imagenes/imagen-1.png)
+
+### Copia de la tabla original
+Para preservar la integridad de los datos originales, se duplicó la tabla base y se realizaron las transformaciones sobre una nueva tabla de trabajo llamada "Employees".
+
+---
+
+## 🡲 PASO 1: Estandarización de los nombres de los campos
+Se estandarizó el formato de los nombres de las columnas para asegurar uniformidad y facilitar su interpretación y uso en futuras consultas.
+![Imagen 2](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/e9556e4232d0f6d88c43773a9f31a2e43522f408/Imagenes/imagen-2.png)
+
+---
+
+## 🡲 PASO 2: 
+
+---
+
+## 🡲 PASO 3: 
 
 ---
 
@@ -66,3 +86,4 @@ Para consultas, puedes contactarme a través de:
 
 [Mail](mailto:maria.ibanezw@gmail.com)
 [LinkedIn](https://www.linkedin.com/in/mariadelmaribanezw/) 
+
