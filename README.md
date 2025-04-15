@@ -8,17 +8,16 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
 --- 
 
 ## Contenido
-1. [Objetivo general](#Objetivo-general)
-2. [Herramientas utilizadas](#Herramientas-utilizadas)
-3. [Conjunto de datos](#Conjunto-de-datos)
-4. [Pasos realizados](#Pasos-realizados)
+1. [Objetivo general](#objetivo-general)
+2. [Herramientas utilizadas](#herramientas-utilizadas)
+3. [Conjunto de datos](#conjunto-de-datos)
+4. [Pasos realizados](#pasos-realizados)
 
-   - [Paso 1: Estandarización de los nombres de los campos](#Paso-1:-Estandarización-de-los-nombres-de-los-campos)
-   - [Paso 2: Eliminación de datos duplicados](#Paso-2:-Eliminación-de-datos-duplicados)
-   - [Paso 3: Estandarización de datos](#Paso-3:-Estandarización-de-datos)
-   - [Paso 4: Nuevas columnas de edad y antiguedad](#Paso-4:-Nuevas-columnas-de-edad-y-antiguedad)
-      
-5. [Resultado final](#Resultado-final)
+   - [Paso 1: Estandarización de los nombres de los campos](#paso-1-estandarización-de-los-nombres-de-los-campos)
+   - [Paso 2: Eliminación de datos duplicados](#paso-2-eliminación-de-datos-duplicados)
+   - [Paso 3: Estandarización de datos](#paso-3-estandarización-de-datos)
+   - [Paso 4: Nuevas columnas de edad y antiguedad](#paso-4-nuevas-columnas-de-edad-y-antiguedad)
+
 
 --- 
 
