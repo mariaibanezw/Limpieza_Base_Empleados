@@ -17,7 +17,7 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
    - [Paso 2: Eliminación de datos duplicados](#paso-2-eliminación-de-datos-duplicados)
    - [Paso 3: Estandarización de datos](#paso-3-estandarización-de-datos)
    - [Paso 4: Nuevas columnas de edad y antiguedad](#paso-4-nuevas-columnas-de-edad-y-antiguedad)
-
+5. [Resultado final](#resultado-final)
 
 --- 
 
@@ -35,18 +35,18 @@ Entre los principales objetivos se encuentran:
 
 --- 
 
-## 2. Herramientas utilizadas
+## Herramientas utilizadas
 
 **SQL Server:** Limpieza, transformación y modelado de los datos.
 
 --- 
 
-## 3. Conjunto de datos
+## Conjunto de datos
 Los datos crudos estan en formato CSV. Estos contienen información de los empleados de la empresa como: nombre, apellido, fecha de nacimiento, el area en la que trabajan dentro de empresa, la fecha de ingreso y si es el caso, la fecha de finalizacion de su contrato.
 
 --- 
 
-## 4. Pasos realizados
+## Pasos realizados
 
 - #### Creación de base de datos 
 Se creo una nueva base llamada "CleanDatabase" en donde se alojó la tabla principal con los datos de los empleados.
@@ -152,7 +152,7 @@ Resultados obtenidos:
 
 ---
 
-## 5. Resultado final
+## Resultado final
 Este proyecto de limpieza y transformación de datos en SQL permitió convertir un dataset desordenado y poco funcional en una base de datos estructurada, coherente y lista para el análisis.
 
 - Se eliminaron registros duplicados y errores que comprometían la calidad del análisis
