@@ -13,7 +13,7 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
 3. [Conjunto de datos](#conjunto-de-datos)
 4. [Pasos realizados](#pasos-realizados)
 
-   - [Paso 1: Modificación de la estructura de la tabla](#paso-1-estandarización-de-los-nombres-de-los-campos)
+   - [Paso 1: Modificación de la estructura de la tabla](#paso-1-modificación-de-la-estructura-de-la-tabla)
    - [Paso 2: Eliminación de datos duplicados](#paso-2-eliminación-de-datos-duplicados)
    - [Paso 3: Estandarización de datos](#paso-3-estandarización-de-datos)
    - [Paso 4: Nuevas columnas de edad y antiguedad](#paso-4-nuevas-columnas-de-edad-y-antiguedad)
