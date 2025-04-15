@@ -13,11 +13,13 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
 3. [Conjunto de datos](#conjunto-de-datos)
 4. [Pasos realizados](#pasos-realizados)
 
-   - [Paso 1: Estandarización de los nombres de los campos](#paso-1-estandarización-de-los-nombres-de-los-campos)
+   - [Paso 1: Modificación de la estructura de la tabla](#paso-1-estandarización-de-los-nombres-de-los-campos)
    - [Paso 2: Eliminación de datos duplicados](#paso-2-eliminación-de-datos-duplicados)
    - [Paso 3: Estandarización de datos](#paso-3-estandarización-de-datos)
    - [Paso 4: Nuevas columnas de edad y antiguedad](#paso-4-nuevas-columnas-de-edad-y-antiguedad)
+     
 5. [Resultado final](#resultado-final)
+6. [Contacto](#contacto)
 
 --- 
 
@@ -61,7 +63,7 @@ Para preservar la integridad de los datos originales, se duplicó la tabla base 
 
 ---
 
-## 🡲 PASO 1: Modificación de la estructura de la tabla
+## Paso 1: Modificación de la estructura de la tabla]
 - #### Cambio de los nombres de las columnas
 Se estandarizó el formato de los nombres de las columnas para asegurar uniformidad y facilitar su interpretación y uso en futuras consultas.
 
@@ -69,7 +71,7 @@ Se estandarizó el formato de los nombres de las columnas para asegurar uniformi
 
 ---
 
-## 🡲 PASO 2: Eliminación de datos duplicados
+## Paso 2: Eliminación de datos duplicados
 La presencia de registros duplicados puede alterar los resultados del análisis y afectar la precisión de las visualizaciones, dando lugar a conclusiones erróneas.
 
 
@@ -89,7 +91,7 @@ A partir de allí, se creó una **tabla temporal** con los registros únicos, pa
 
 ---
 
-## 🡲 PASO 3: Estandarización de datos
+## Paso 3: Estandarización de datos
 - #### Eliminación de los espacios en blanco
 Para asegurar la consistencia en los nombres y apellidos de los empleados, se aplicó la función `TRIM()` con el objetivo de eliminar los espacios en blanco al inicio y al final de cada valor.
 
@@ -133,7 +135,7 @@ Cambio de tipo de dato:
 
 ![Imagen 13](https://github.com/mariaibanezw/Limpieza_base_empleados/blob/b8f77954a6bf1abb94a6833239d1e4f847945685/Imagenes/imagen-13.png)
 
-## 🡲 PASO 4: Nuevas columnas de edad y antigüedad
+## Paso 4: Nuevas columnas de edad y antiguedad
 Se generaron dos nuevas columnas utilizando funciones de fecha en SQL:
 - Una columna `Edad`, calculada a partir de la diferencia entre la fecha actual y la columna `Birth_Date`.
 - Otra columna `Antigüedad`, calculada como el tiempo transcurrido desde la fecha de ingreso (Star_Date) hasta la fecha actual.
@@ -160,8 +162,6 @@ Este proyecto de limpieza y transformación de datos en SQL permitió convertir 
 - Se optimizó el dataset reduciendo valores nulos y asegurando mayor precisión
 
 Este tipo de procesos es fundamental en cualquier etapa de análisis de datos, ya que garantiza que la información sea confiable, reutilizable y lista para alimentar visualizaciones, reportes o modelos de predicción.
-
-
 
 ---
 
