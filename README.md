@@ -21,7 +21,7 @@ Mediante consultas SQL, diseñé e implementé un proceso de limpieza que mejor�
 
 --- 
 
-## 1. Objetivo general
+## Objetivo general
 
 El objetivo de este proyecto es optimizar la calidad de los datos de empleados de una empresa a través de procesos de limpieza, normalización y estandarización utilizando SQL Server.
 
