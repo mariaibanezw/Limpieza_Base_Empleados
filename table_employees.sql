@@ -2,11 +2,11 @@
 ------------ PROYECTO LIMPIEZA DE DATOS ------------
 ----------------------------------------------------
 
--- Creación de la base de datos
+-- CreaciÃ³n de la base de datos
 CREATE DATABASE CleanDatabase;
 USE CleanDatabase;
 
--- Importacion de archivo CSV. Creación de tabla principal
+-- Importacion de archivo CSV. CreaciÃ³n de tabla principal
 
 -- Duplicado de tabla 
 SELECT * INTO Employees FROM Original;
@@ -22,7 +22,7 @@ EXEC sp_rename 'Employees.[Apellido]', 'Last_Name', 'COLUMN'
 
 EXEC sp_rename 'Employees.[birth_date]', 'Birth_Date', 'COLUMN';
 
-EXEC sp_rename 'Employees.[género]', 'Gender', 'COLUMN';
+EXEC sp_rename 'Employees.[gÃ©nero]', 'Gender', 'COLUMN';
 
 EXEC sp_rename 'Employees.[area]', 'Area', 'COLUMN';
 
@@ -270,9 +270,9 @@ UPDATE Employees
 SET Age = DATEDIFF(year, Birth_Date, GETDATE());
 
 
--- Calcular los años trabajados
+-- Calcular los aÃ±os trabajados
 ALTER TABLE Limpieza
-ADD Antigüedad int;
+ADD AntigÃ¼edad int;
 
 SELECT 
 Name, 
@@ -281,5 +281,5 @@ DATEDIFF(YEAR, Star_Date, GETDATE()) AS Antiguedad
 FROM Employees;
 
 UPDATE Employees
-SET Antigüedad = DATEDIFF(YEAR, Star_Date, GETDATE());
+SET AntigÃ¼edad = DATEDIFF(YEAR, Star_Date, GETDATE());
 
